@@ -1,18 +1,4 @@
-//import getRandomNum from '../getRandomNum.js';
-//import startGame from '../index.js';
+#!/usr/bin/env node
+import startGame from '../src/games/calc.js';
 
-
-const calculate = (num1, num2, operator) => {
-    switch (operator) {
-      case '+':
-        return num1 + num2;
-      case '-':
-        return num1 - num2;
-      case '*':
-        return num1 * num2;
-      default:
-        return false;
-    }
-  };
-  
-  calculate();
+startGame();
