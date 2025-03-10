@@ -11,8 +11,8 @@ const getGCD = (firstArgument, secondArgument) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const firstArgument = getRandomNumber(1, 100);
-  const secondArgument = getRandomNumber(1, 100);
+  const firstArgument = getRandomNumber(1, 10);
+  const secondArgument = getRandomNumber(1, 10);
   const question = `${firstArgument} ${secondArgument}`;
   const correctAnswer = String(getGCD(firstArgument, secondArgument));
 
