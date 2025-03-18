@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
  [![Maintainability](https://api.codeclimate.com/v1/badges/7dc9fa98c4b5025b9be8/maintainability)](https://codeclimate.com/github/Lessorus/frontend-project-44/maintainability)
-
+ [![Actions Status](https://github.com/Lessorus/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Lessorus/frontend-project-44/actions)
 
 Запуск проекта:
 В начале нужно склонировать репозиторий
